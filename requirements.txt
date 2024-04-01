@@ -1,0 +1,19 @@
+ipykernel
+python-dotenv
+pydantic==1.10.9
+openpyxl
+pandas
+openai
+tiktoken
+langchain
+langchain-openai
+pypdf
+cryptography
+bs4
+transformers
+sentence-transformers
+chromadb
+lark
+
+# nbconvert
+# RISE
