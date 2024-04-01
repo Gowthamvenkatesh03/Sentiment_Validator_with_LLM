@@ -16,8 +16,20 @@ Overall, automating quality control with LLMs promises to enhance the reliabilit
 # Sentiment Validator Workflow
 ![image](https://github.com/Gowthamvenkatesh03/Sentiment_Validator_with_LLM/assets/66058704/b7911bf3-e3dc-4f8e-8486-d616d789e2f8)
 
+# Installation
+### 1.Clone this repository to your local machine using:
+  git clone https://github.com/Gowthamvenkatesh03/Sentiment_Validator_with_LLM.git
+### 2.Install the required dependencies using pip:
+  pip install -r requirements.txt
+### 3.Set up your OpenAI API credentials by creating a .env file in the project root and adding your API
+  OPENAI_API_KEY=your_api_key_here
+
 # Working Model Screenshots
-### Home page asking users to upload the files for validation
+### Run the Streamlit app by executing:
+streamlit run Sentiment_Validator.py
+
+### The web app will open in your browser
+#### Below is the home page asking users to upload the files for validation
 ![image](https://github.com/Gowthamvenkatesh03/Sentiment_Validator_with_LLM/assets/66058704/d9c83a2c-5fdf-4637-aa5e-974855f79149)
 
 ### User to upload a manually validated file for reference to the LLM, Any Predefined Terms file and the new data set which needs to be validated
@@ -30,6 +42,8 @@ Overall, automating quality control with LLMs promises to enhance the reliabilit
 ![image](https://github.com/Gowthamvenkatesh03/Sentiment_Validator_with_LLM/assets/66058704/b5d308a1-a026-49a2-a637-47cffb96b92e)
 
 Once the Download CSV button is clicked validated file will be available in your local.
+
+
 
 Now the human can just have a quick look on the validation results and can deliver the file to business people.
 
